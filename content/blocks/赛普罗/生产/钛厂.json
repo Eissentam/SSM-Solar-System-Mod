@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "压缩混合机",
+	"description": "使用各种金属物质压缩成钛",
+	"outputItem": { "item": "titanium", "amount": 20},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"itemCapacity": 70,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":6,
+    "items": {
+	 "items": [
+	  { "item": "copper", "amount": 10},
+	  { "item": "lead", "amount": 10}
+	]
+  }
+ },
+"requirements": [
+		{ "item": "型钢锭", "amount": 20},
+		{ "item": "copper", "amount": 20},
+	],
+	"category": "crafting",
+	"research": "熔炼炉",
+}

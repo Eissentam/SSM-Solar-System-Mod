@@ -1,0 +1,11 @@
+{
+"name":"土钢",
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"土钢",
+"mapColor":"EC9532FF",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":0.89,
+"oreScale":35
+}

@@ -1,0 +1,17 @@
+{
+	"type": "Battery",
+	"name":"锂电池",
+	"description": "锂离子电池是一种二次电池（充电电池），它主要依靠锂离子在正极和负极之间移动来工作",
+	"health": 1000,
+	"size": 1,
+	"requirements": [
+    "copper/10"
+    "锂/10"
+    "电容/10"
+	],
+	"consumes":{"powerBuffered": 24000},
+	"emptyLightColor":"ffffff",
+	"fullLightColor":"C8C8C8FF",
+	"category": "power",
+	"research": "battery-large"
+}

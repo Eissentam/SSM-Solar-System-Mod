@@ -1,0 +1,199 @@
+{
+	"type": "PowerTurret",
+	"size": 4,
+	"name":"复苏",
+	"description":"至少他比普通维修炮好用多了
+	[red]不到万不得已，切勿连发",
+	"health": 1800,
+	"shootShake": 1
+	"ammoEjectBack":3
+	"reloadTime": 2,
+	"chargeTime": 10
+	"chargeBeginEffect": {
+      "type": "MultiEffect"
+      "layer":72
+      "lifetime":120
+      "effects": [
+        {
+          "type": "WaveEffect"
+          "lifetime": 120
+          "sizeFrom": 60
+          "sizeTo": 0
+          "colorFrom": "7CF389FF"
+          "colorTo": "7CF389FF"
+        }
+      ] 
+    }
+	"range": 400,
+	"inaccuracy": 0,
+	"shots" : 1
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 2,
+	"recoilAmount" : 1.5,
+	"restitution" : 0.04, 
+	"rotateSpeed": 3,
+	"shootSound" : "missile",
+    "powerUse" : 40,
+	"hasPower" : true,
+	"shootType" : {
+			"type":"MissileBulletType",
+			"sprite":"速通战役模组-一只ZZ君",
+      "weaveScale": 16,
+      "weaveMag": 1,
+    "hitEffect": {
+      "type": "MultiEffect"
+      "effects": [
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 20
+          "sizeTo": 72
+          "colorFrom": "59A776FF"
+          "colorTo": "7CF389FF"
+        }
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 19
+          "sizeTo": 71
+          "colorFrom": "FFFFFFFF"
+          "colorTo": "FFFFFFFF"
+        }
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 18
+          "sizeTo": 70
+          "colorFrom": "59A776FF"
+          "colorTo": "7CF389FF"
+        }
+        {
+         "type": "ParticleEffect"
+         "length": 0
+         "lifetime": 180
+         "particles": 1
+         "colorFrom": "7CF389FF"
+         "colorTo": "7CF38900"
+         "sizeFrom": 20
+         "sizeTo": 2
+         "region": "particle"
+        }
+      ] 
+    }
+		"despawnEffect":"none"
+      "smokeEffect":"none",
+	        "shootEffect": {
+      "type": "MultiEffect"
+      "effects": [
+        {
+          "type": "WaveEffect"
+          "lifetime": 15
+          "sizeFrom": 0
+          "sizeTo": 60
+          "colorFrom": "59A776FF"
+          "colorTo": "7CF389FF"
+        }
+      ] 
+    }
+             "backColor":"98FFA9FF"
+           "frontColor":"FFFFFFFF"
+    "trailEffect": {
+      "type": "ParticleEffect"
+      "length": 0
+      "lifetime": 120
+      "particles": 1
+      "colorFrom": "7CF389FF"
+      "colorTo": "7CF38900"
+      "sizeFrom": 12
+      "sizeTo": 2
+      "region": "particle"
+    }
+                "healPercent": 10
+		"collidesTeam":true,
+			"width":20,
+			"height":20,
+			"speed":1.4,
+			"damage":50,
+		"splashDamage":50,
+	"splashDamageRadius":72,
+			"lifetime":300
+		        "fragBullets":20,
+     "fragBullet":{         
+            "healPercent": 2
+		"collidesTeam":true,
+         "weaveScale": 8,
+      "weaveMag": 4,
+			"type":"MissileBulletType",
+			"sprite":"速通战役模组-一只ZZ君",
+	  "homingRange":160,
+    "trailEffect": {
+      "type": "ParticleEffect"
+      "length": 0
+      "lifetime": 60
+      "particles": 3
+      "colorFrom": "7CF389FF"
+      "colorTo": "7CF38900"
+      "sizeFrom": 6
+      "sizeTo": 2
+      "region": "particle"
+    }
+    "hitEffect": {
+      "type": "MultiEffect"
+      "effects": [
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 5
+          "sizeTo": 20
+          "colorFrom": "59A776FF"
+          "colorTo": "7CF389FF"
+        }
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 4
+          "sizeTo": 19
+          "colorFrom": "FFFFFFFF"
+          "colorTo": "FFFFFFFF"
+        }
+        {
+          "type": "WaveEffect"
+          "lifetime": 20
+          "sizeFrom": 3
+          "sizeTo": 18
+          "colorFrom": "59A776FF"
+          "colorTo": "7CF389FF"
+        }
+        {
+         "type": "ParticleEffect"
+         "length": 0
+         "lifetime": 180
+         "particles": 1
+         "colorFrom": "7CF389FF"
+         "colorTo": "7CF38900"
+         "sizeFrom": 8
+         "sizeTo": 0
+         "region": "particle"
+        }
+      ] 
+    }
+             "backColor":"98FFA9FF"
+           "frontColor":"FFFFFFFF"
+			"width":8,
+			"height":8,
+			"speed":1.4,
+			"damage":20,
+		"splashDamage":20,
+	"splashDamageRadius":20,
+			"lifetime":308
+     }
+},
+	"requirements": [
+		{ "item": "copper", "amount": 10},
+		{ "item": "lead", "amount": 10},
+		{ "item": "graphite", "amount": 10},
+	],
+	"category": "turret",
+	"research": "mender"
+}

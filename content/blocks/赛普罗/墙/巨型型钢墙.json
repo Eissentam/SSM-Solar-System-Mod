@@ -1,0 +1,15 @@
+{
+	"name": "巨型型钢墙",
+	"description": "坚硬，耐打击吸收激光，有很大的几率反弹子弹",
+	"type": "Wall",
+	"health": 42000,
+	"size": 3,
+	"flashHit":true
+	"chanceDeflect":95
+	"absorbLasers":true,
+	"requirements": [
+	{ "item": "型钢锭", "amount": 24} 
+	],
+	"category": "defense",
+	"research": "大型型钢墙"
+}

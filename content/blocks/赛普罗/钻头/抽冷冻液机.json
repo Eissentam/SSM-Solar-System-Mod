@@ -1,0 +1,24 @@
+{
+"name":"抽冷冻液机" ,
+"description":"从地下抽出冷冻液来",
+"type": "SolidPump",
+"health": 2500,
+"size": 1,
+"floating":true,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 60,
+	"requirements": [
+	    {"item": "lead", "amount": 5},
+	    {"item": "silicon", "amount": 5},
+		{"item": "graphite", "amount": 5},
+],
+"consumes": { "power": 1.8},
+"pumpAmount": 5.6,
+"rotateSpeed": 5.6,
+"result":"cryofluid",
+"baseEfficiency": 1,
+"attribute": "water",
+"category": "production",
+"research": "量子钻头"
+}

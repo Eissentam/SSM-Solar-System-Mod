@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "铀厂",
+	"description": "把型钢锭中的钍提取出来",
+	"outputItem":{ "item": "铀", "amount": 5},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"itemCapacity": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":7.0,
+    "liquid":{
+	"liquid":"冷却液",
+	"amount":0.3,
+	"booster":false	},
+    "items": {
+	 "items": [
+	 { "item": "sand", "amount": 2 }
+	 { "item": "型钢锭", "amount": 1}
+	]
+  }
+ },
+"requirements": [
+	{ "item": "lead", "amount": 30 },
+	{ "item": "精炼钢", "amount": 10 }
+	{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "型钢冶炼厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

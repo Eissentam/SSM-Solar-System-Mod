@@ -1,0 +1,11 @@
+{
+"name":"熔岩矿地",
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"熔岩矿",
+"mapColor":"DEDEDEFF",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":0.89,
+"oreScale":20
+}

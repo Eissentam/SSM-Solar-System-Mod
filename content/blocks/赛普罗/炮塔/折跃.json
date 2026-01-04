@@ -1,0 +1,26 @@
+{
+	"type":"PointDefenseTurret",
+	"name":"分裂光束",
+	"description":"质子拦截装置，撕裂飞来的子弹",
+	"details":"为什么质子飞出来的时候不会撞到空气中的分子（恼）",
+	"size":2,
+	"health":3800,
+	"range":2205,
+	"hasPower":true,
+	"shootLength":2205,
+	"bulletDamage":150,
+	"shoot":{
+	"shots":3,
+	},
+	"reloadTime":10,
+	"consumes":{
+		"power":9.5
+	},
+	"requirements":[
+	{"item": "copper", "amount":105},
+	{"item": "thorium", "amount": 150},
+	{"item": "silicon", "amount": 150},
+	    ],
+	"category":"turret",
+	"research": "segment"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "SolarGenerator",
+    "name": "超大太阳能版",
+    "description": "4倍大小4倍功率（实际上比4倍还要多）",	
+    "size": 4,
+    "hasPower": true,
+    "powerProduction": 200,
+    "requirements": [
+        { "item": "surge-alloy", "amount": 100 },
+        { "item": "silicon", "amount": 100 },
+        { "item": "plastanium", "amount": 50 }
+        {"item":"电容","amount":5}
+    ],
+    "category": "power",
+    "research": "solar-panel"
+}

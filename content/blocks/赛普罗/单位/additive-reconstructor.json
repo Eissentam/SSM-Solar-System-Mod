@@ -1,0 +1,12 @@
+{
+	"upgrades":[
+		["nova","pulsar"],
+        ["dagger","mace"],
+        ["crawler","atrax"],
+        ["flare","horizon"],
+        ["mono","poly"],
+        ["risso","minke"],
+        ["retusa","oxynoe"],
+		["空1","空2",],
+    ]
+}

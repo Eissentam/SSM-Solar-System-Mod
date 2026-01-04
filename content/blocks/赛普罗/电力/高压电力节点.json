@@ -1,0 +1,18 @@
+{
+    "type":"PowerNode",
+    "name":"高压电力节点",
+	"description":"[blue]简介征集",
+    "health":300,
+	"size":2,
+    "maxNodes":30,
+    "laserRange":60,
+	"research":"surge-tower",
+	"requirements": [
+	{"item": "lead", "amount": 15},
+	{"item": "titanium", "amount": 10},
+	{"item": "silicon", "amount": 15},
+	{ "item": "电容", "amount":7},
+	{ "item": "电阻", "amount":5}
+	],
+	"category":"power"
+}

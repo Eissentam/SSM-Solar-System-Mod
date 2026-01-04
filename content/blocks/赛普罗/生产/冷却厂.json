@@ -1,0 +1,47 @@
+{
+	"type": "GenericCrafter",
+	"name": "冷却液加工厂",
+	"description": "出输冷却液",
+	"details":"[blue]小心别被冻上",
+    "health": 500,
+	"outputLiquid": {"liquid": "冷却液", "amount": 0.6},
+	"itemCapacity": 20,
+	"size": 3,
+	"drawer":{
+	    "type":"DrawMulti",
+	    "drawers":[
+	    {
+	    "type":"DrawRegion",
+	    "suffix":"-bottom"
+	    },
+	    {
+	       "type":"DrawLiquidTile",
+	    "drawLiquid":"cryofluid"
+	    },
+	    "DrawDefault"
+	]},
+    "hasItems": true,
+	"hasLiquids": true,
+	"solid": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 2.5,
+	"items": {
+	"items": [
+	{ "item": "titanium", "amount": 1 }	]	},
+	"liquid": 
+	{"liquid": "cryofluid", "amount": 0.6 }
+		},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "thorium", "amount": 60 },
+	{ "item": "metaglass", "amount": 40},
+	{ "item": "silicon", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "cryofluid-mixer"
+}

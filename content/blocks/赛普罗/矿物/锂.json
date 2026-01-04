@@ -1,0 +1,11 @@
+{
+"name":"锂矿",
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"锂",
+"mapColor":"C8C8C8FF",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":0.89,
+"oreScale":20
+}

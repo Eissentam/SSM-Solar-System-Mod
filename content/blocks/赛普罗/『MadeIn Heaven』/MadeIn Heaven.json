@@ -1,0 +1,59 @@
+{
+	"name": "『Made In Heaven』",
+	"type": "OverdriveProjector",
+	"description":"[blue]『你相信引力吗？』
+『我很佩服第一个吃蘑菇的人因为说不定是毒菇』
+『DIO，等我得心应手之后，我一定会让你上天堂的』
+『人终究是要上天堂啊』
+『最后再说一次』
+『时间要加速了』
+『螺旋楼梯』
+『独角仙』
+『废墟街道』
+『无花果塔』
+『独角仙』
+『特异点』
+『德蕾莎之道』
+『独角仙』
+『特异点』
+『乔托』
+『天使』
+『绣花球』
+『独角仙』
+『特异点』
+『秘密皇帝』
+『C-moon』
+『神啊!眷顾我吧』
+『Made in heaven!』
+『以神的名义命你退下』",
+	"health": 2500,
+	"size": 2,
+	"range": 1000,
+	"itemCapacity": 200,
+	"reload":900 ,
+	"buildCostMultiplier": 0.5,
+	"speedBoost": 6,
+	"useTime": 90
+	"consumes": {
+		"power": 7,
+        "items":{
+			"items":[
+				{"item":"铀","amount":1}
+			],
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item":"锂","amount": 15 },
+		{ "item": "plastanium", "amount": 5 },
+        { "item":"电阻","amount":10},
+		{ "item": "lead", "amount": 20 },
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "thorium", "amount": 20 },
+		{ "item": "titanium", "amount": 15 }
+		{"item":"芯片","amount":5}
+	],
+	"category":"effect",
+	"research":"overdrive-projector"
+}

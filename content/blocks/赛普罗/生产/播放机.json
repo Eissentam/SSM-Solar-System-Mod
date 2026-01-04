@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "惊涛落日",
+	"description": "[blue]你看到这个的时候你就知道ZZ君没活了",
+    "health": 600,
+	"outputLiquid": {"liquid": "water", "amount": 0.01},
+	"size": 3,
+	"solid": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 10020,
+	"consumes": {
+		"power": 2.5,
+			},
+	"requirements": [
+	{ "item": "copper", "amount": 70 },
+	],
+	"ambientSound":"DDD",
+	"ambientSoundVolume":5,
+	"category": "crafting",
+	"research": "超级压缩机"
+}

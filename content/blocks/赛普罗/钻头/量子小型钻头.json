@@ -1,0 +1,34 @@
+{
+    "name":"量子小型钻头",
+    "type": "Drill",
+    "description":"不浪费每一点资源",
+    "details":"这也算是时代的变更吗",
+    "size": 1,
+    "health": 900,
+    "tier": 3,
+    "drillTime": 30,   
+    "liquidBoostIntensity":10,
+    "canOverdrive": true,
+    "drawRim": true.
+    "warmupSpeed": 0.3,
+    "drillEffect": "none",
+    "updateEffect": "none",
+    "rotateSpeed": 5.6,
+    "drawMineItem": false,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 5,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "itemCapacity": 100,
+    "liquidCapacity": 10,
+    "requirements": [	
+   { "item": "copper", "amount": 5 },
+   { "item": "lead", "amount": 6 }
+    ],
+    "category": "production",
+    "research": "mechanical-drill"
+}

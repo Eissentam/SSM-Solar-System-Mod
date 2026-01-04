@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "提钍厂",
+	"description": "把型钢锭中的钍提取出来",
+	"outputItem": { "item": "thorium", "amount": 25},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"itemCapacity": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":7.0,
+    "liquid":{
+	"liquid":"water",
+	"amount":0.3,
+	"booster":false	},
+    "items": {
+	 "items": [
+	  { "item": "型钢锭", "amount": 1}
+	]
+  }
+ },
+"requirements": [
+	{ "item": "copper", "amount": 200 },
+	{ "item": "lead", "amount": 100 },
+	{ "item": "titanium", "amount": 160 },
+	{ "item": "silicon", "amount": 150 },
+	{ "item": "metaglass", "amount": 130 },
+	],
+	"category": "crafting",
+	"research": "熔炼炉",
+}

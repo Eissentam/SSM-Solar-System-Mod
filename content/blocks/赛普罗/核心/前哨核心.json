@@ -1,0 +1,30 @@
+{
+    "description": "众生平等",
+"research": {
+		"parent": "量子数据库",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "planetaryTerminal"
+			}]},
+    "requirements": [
+    {"amount": 1500, "item": "copper"},
+    {"amount": 600, "item": "lead"},
+    {"amount": 900, "item": "silicon"},
+    {"amount": 100, "item": "型钢锭"},
+    ],
+    "research": {
+    "parent": "core-foundation",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "extractionOutpost"
+			}]},
+    "unitType": "飞升",
+    "health": 1200,
+    "itemCapacity": 6000,
+    "size": 4,
+    "unitCapModifier": 35,
+    "researchCostMultiplier": 0.4,
+    "category": "effect"
+}

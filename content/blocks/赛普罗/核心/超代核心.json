@@ -1,0 +1,24 @@
+{
+    "description": "唯我独尊!",
+"research": {
+		"parent": "大型发射台",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "planetaryTerminal"
+			}]},
+    "requirements": [
+    {"amount": 1000, "item": "copper"},
+    {"amount": 1300, "item": "lead"},
+    {"amount": 1000, "item": "silicon"},
+    {"amount": 1200, "item": "thorium"},
+    {"amount": 3000, "item": "型钢锭"},
+    ],
+    "unitType": "欧米茄",
+    "health": 12000,
+    "itemCapacity": 30000,
+    "size": 8,
+    "unitCapModifier": 35,
+    "researchCostMultiplier": 0.5,
+    "category": "effect"
+}

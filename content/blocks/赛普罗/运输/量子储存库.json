@@ -1,0 +1,17 @@
+{
+    "description": "成功掌握量子空间技术将将物品缩小至可以储存至量子空间",
+    "requirements": [
+    {"item":"copper","amount":250},
+    {"item":"lead","amount":250},
+    {"item":"metaglass","amount":250},
+    {"amount": 200, "item": "titanium"},
+    {"amount": 300, "item": "silicon"}, 
+    {"amount": 300, "item": "锂"}, 
+     ],
+    "type": "StorageBlock",
+    "name": "量子数据库",
+    "size": 3,
+    "itemCapacity": 350000,
+    "research": "分子传送带",
+    "category": "effect"
+}

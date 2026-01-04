@@ -1,0 +1,51 @@
+{
+	"type": "GenericCrafter",
+	"health": 3600,
+	"name": "量子编织器",
+	"description": "利用钍发出的放射线快速制造相织物。",
+	"details":"[blue]遇事不决量子力学（doge）",
+	"outputItem": 
+{"item": "phase-fabric", "amount": 20},
+    "itemCapacity": 160,
+    "size": 3,
+    "updateEffect": {
+        "type": "WaveEffect",
+        "lifetime": 30,
+        "sizeFrom": 0,
+        "sizeTo": 10,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFF1D2FF",
+        "colorTo": "FFD197FF"
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            "DrawWeave",
+            "DrawDefault"
+        ]
+    },
+    "craftTime": 240,
+    "consumes": {
+        "power": 6.5,
+        "items": {
+            "items": [
+                {"item": "thorium","amount": 20},
+                {"item": "sand","amount": 120},]
+        }
+    },
+    "requirements": [
+        {"item": "copper","amount": 45},
+        {"item": "lead","amount": 45},
+        {"item": "titanium","amount": 45},
+        { "item": "silicon", "amount": 65},
+        { "item": "型钢锭", "amount": 65},
+    ],
+    "ambientSound":"techloop",
+    "category": "crafting",
+    "research": "plastanium-compressor",
+}

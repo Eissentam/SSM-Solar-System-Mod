@@ -1,0 +1,11 @@
+{
+"name":"银矿",
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"银矿",
+"mapColor":"B0B9C0FF",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":0.89,
+"oreScale":25
+}

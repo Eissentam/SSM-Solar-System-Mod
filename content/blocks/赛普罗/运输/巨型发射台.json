@@ -1,0 +1,26 @@
+//本文件注释是由一只ZZ君注，如要搬运请标明出处（或者直接改80%的内容doge）
+{
+    "type":"LaunchPad", //类型:发射台
+    "name":"巨型发射台", //学过的英语都看得出来这是什么
+    "description":"一次性发射更多物品，物品多，发射时间较长，（实际上就是个缩小版的行星际加速器）\n[red]但更耗电，发射时间也开始延长",//用途介绍
+    "health":1250,//血量
+    "size":8, //大小
+    "itemCapacity":5000, //物品储存量
+    "launchTime":3600,//发射时间
+    "hasPower":true, //是否使用电力
+    //"reloadTime":120,下一次发射的间隔时间135版以后已弃用
+    "consumes": {
+        "power": 48
+    },//电力使用后面数值越大使用电力越大，电力比为1:60
+	"requirements": [
+	{ "item": "copper", "amount": 7000 },
+	{ "item": "lead", "amount": 6000 }
+	{ "item": "titanium", "amount": 5000 },
+	{ "item": "silicon", "amount": 4000 }
+	{ "item": "thorium", "amount": 1000 },
+	{ "item": "plastanium", "amount": 500 }
+		],//建造时消耗的材料
+	"category": "effect",//归类
+	"research":"大型发射台"//研究这个建筑前需要研究的建筑
+	"buildVisibility":"campaignOnly",//最后这个不怎么重要，译（构建可见性:仅限活动）
+}

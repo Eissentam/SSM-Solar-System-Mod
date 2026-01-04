@@ -1,0 +1,24 @@
+{
+"name":"小型抽水机" ,
+"description":"优化设计，泵送更多液体，即使需要更多的能源",
+"type": "SolidPump",
+"health": 2500,
+"size": 1,
+"floating":true,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 60,
+	"requirements": [
+	    {"item": "lead", "amount": 5},
+	    {"item": "silicon", "amount": 5},
+		{"item": "graphite", "amount": 5},
+],
+"consumes": { "power": 2.8},
+"pumpAmount": 5.6,
+"rotateSpeed": 5.6,
+"result":"water",
+"baseEfficiency": 1,
+"attribute": "water",
+"category": "production",
+"research": "量子小型钻头"
+}

@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "新能源硅炉",
+	"description": "使用量子能量，加快生产速度",
+	"details":"其实根本没有什么新能源了只是移除了煤炭",
+	"outputItem": {"item": "silicon", "amount": 50	},
+	"itemCapacity": 150,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 180,
+	"updateEffect":"none",
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"consumes": {
+	"power": 2.5,
+	"items": {	"items": [
+	{ "item": "sand", "amount": 100 }	]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount":100 },
+		{ "item": "lead", "amount": 85 },
+		{ "item": "graphite", "amount": 35 }
+		],
+	"category": "crafting",
+	"research": "silicon-smelter"
+}

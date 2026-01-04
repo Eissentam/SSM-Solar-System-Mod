@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "型钢冶炼厂",
+	"description": "使用硅和石墨冶炼出 型钢锭",
+	"outputItem": { "item": "型钢锭", "amount": 20},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 30,
+	"itemCapacity": 20,
+	"liquidCapacity": 20,
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFade"
+            ]
+    },
+	"consumes": {
+    "power":4,
+    "items": {
+	 "items": [
+	    { "item": "graphite", "amount": 5},
+	  { "item": "coal", "amount": 5}	]
+  }
+ },
+"requirements": [
+		{"item": "lead", "amount": 200},
+		{ "item": "graphite","amount": 100 },
+		{"item": "silicon""amount":100},	
+	],
+	"category": "crafting",
+	"research": "超级压缩机"
+}

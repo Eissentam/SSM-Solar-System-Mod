@@ -1,0 +1,55 @@
+{
+	"type": "Separator",
+	"name": "电子实验室",
+	"description": "生产出高科技产品",
+	"results": [
+	{"item":"芯片","amount":15}
+	{"item":"电阻", "amount": 15},
+	{"item":"电感","amount":15},
+    {"item":"电容","amount":15}
+	],
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "银液",
+				"suffix": "-液"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-扇",
+				"spinSprite": true,
+				"rotateSpeed": 6
+			}
+		]
+	},
+	"itemCapacity": 400,
+	"hasPower": true,
+	"hasItems": true,
+	"liquidCapacity": 600,
+	"craftTime": 15,
+	"consumes": {
+		"power": 2.5,
+		"liquid": { "liquid": "银液", "amount": 0.2 }
+		"items": {
+			"items": [
+				{ "item": "lead", "amount":5 },
+				{ "item": "copper", "amount":5 }
+				{"item":"锂","amount":5}
+			]
+		}
+	},
+	"requirements": [
+	{ "item":"copper","amount":20},
+	{ "item": "graphite", "amount": 13 },
+	{ "item": "titanium", "amount": 18 },
+	{ "item": "型钢锭", "amount": 10 },
+	{ "item": "plastanium", "amount": 7 }
+	
+	],
+	"category": "crafting",
+	"research": "熔炉",
+}

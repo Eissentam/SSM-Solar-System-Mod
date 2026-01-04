@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name": "合金炼制厂",
+	"description": "我说三个数123   9块9打下合金的价格",
+	"outputItem": { "item": "surge-alloy", "amount":50},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 100,
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+            "DrawFlame"
+            ]
+    },
+	"itemCapacity": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":7.0,
+    "items": {
+	 "items": [
+	  { "item": "copper", "amount": 10},
+	  {"item":"lead","amount":15},
+      {"item":"titanium","amount":15},
+      "silicon/10"//作者逐渐懒狗
+	]
+  }
+ },
+"requirements": [
+    {"item":"copper","amount":50},
+	{ "item": "lead", "amount": 40},
+	{"item":"titanium","amount":50},
+	{ "item": "型钢锭", "amount": 90},
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"researchCostMultiplier": 0.4,
+}

@@ -1,0 +1,36 @@
+{
+	"name": "林檎钻头",
+	"description": "[brown]日本新下北泽工业科学院园区利用生物质技术研发的生物质矿物开采钻头。“生物开采”这一概念最早由田所浩二博士于2051年提出，打破了传统的科学思维和研发目标，但技术水平要求过高，至今，下北泽科研所的研发团队才初步完成了生物工程的技术突破。为纪念田所浩二博士为人类进步的贡献，特地将林檎钻头的顶部制作为田所浩二博士的模样（楽）",
+	"details":"[brown]呃哼哼!啊啊啊啊啊啊啊啊啊啊啊啊啊压力马斯内（唐突）",
+	"type": "Drill",
+	"size": 3,
+	"tier": 8,
+	"health": 114514,
+	"rotateSpeed":5.1,
+	"warmupSpeed":0.1,
+	"itemCapacity": 200,
+	"liquidCapacity": 500,  
+	"canOverdrive": true,
+	"drawRim":true,
+	"hasItems": true,
+	"drillTime": 35,  
+	"updateEffect": "mineBig",
+	"liquidBoostIntensity": 2.01,
+	"consumes": {
+	"power":5,  
+	"liquid": {
+       "liquid": "water",
+       "amount": 0.4,
+       "booster": true,
+       "optional": true
+        }
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 25 },
+		{ "item": "graphite", "amount": 45 },
+		{ "item": "titanium", "amount": 20  },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

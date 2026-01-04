@@ -1,0 +1,41 @@
+{
+	"nuclearexplosionEffect":{
+	"type": "MultiEffect",
+	"effects": [
+	//已配好的颜色无需更改，颜色对应代码在画图软件里找
+	//这个是烟雾特效
+	{"type": "ParticleEffect",
+    "particles": 12,//特效数量
+    "sizeFrom": 24,//初始大小，8为一格
+    "sizeTo": 8,//结束大小
+    "length": 400,//扩散移动距离，负数会聚集
+    "baseLength": 33,//开始时距离中心位置的范围
+    "lifetime": 120,//存在时间
+    "colorFrom": "F3FF00FF",
+    "colorTo": "FFC700FF",
+    "cone": 360},
+    //这个是条形粒子特效，内容物与上面的相同
+	{"type": "ParticleEffect",
+    "particles": 12,
+    "line":true,
+    "sizeFrom": 9,
+    "sizeTo": 0,
+    "length": 43,
+    "baseLength": 23,
+    "lifetime": 22,
+    "colorFrom": "FFC700FF",
+    "colorTo": "FFE176FF",
+    "cone": 360},
+    //这个是波特效
+    {"type": "WaveEffect",
+    "lifetime": 10,
+    "sizeFrom": 1,//开始大小
+    "sizeTo": 186,//结束大小
+    "strokeFrom": 34,//圆的开始粗细，8为一格
+    "strokeTo": 0,//结束时粗细
+    "colorFrom": "FFE176FF",
+    "colorTo": "ffffff"}
+    
+    ]
+	},
+}

@@ -1,0 +1,59 @@
+{
+    "type": "ConsumeGenerator",
+	"name": "增压发电站",
+	"description": "大型水利发电机，需要水以维持正常运行",
+	"details":"[blue]河:要被榨干了（doge）",
+    "size": 3,
+    "health": 400,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration": 60,
+    "powerProduction": 600,
+    "itemCapacity": 20,
+    "liquidCapacity": 200,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            "DrawWarmupRegion",
+            {
+                "type": "DrawRegion",
+                "suffix": "-turbine",
+                "rotateSpeed":2
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-turbine",
+                "rotateSpeed":-2,
+                "rotation":45
+            }
+        ]
+    },
+    "generateEffect": "generatespark",
+    "consumes": {
+        "itemFlammable": {},
+        "liquid": "water/0.8"
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 360
+        },
+        {
+            "item": "lead",
+            "amount": 350
+        },
+        {
+            "item": "metaglass",
+            "amount": 70
+        },
+        {
+            "item": "silicon",
+            "amount": 230
+        },
+    ],
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.06,
+    "category": "power",
+    "research": "steam-generator"
+}

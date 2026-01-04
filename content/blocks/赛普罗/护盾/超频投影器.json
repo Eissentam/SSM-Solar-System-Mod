@@ -1,0 +1,36 @@
+{
+	"name": "超频投影器",
+	"description": "[green]简介征集",
+	"details":"[green]细节征集"
+	"type": "ForceProjector",
+	"health":3500 ,
+	"size":2,
+	"radius":500,
+	"phaseUseTime": 280
+	"phaseRadiusBoost": 30
+	"buildCostMultiplier": 0.5,
+	"itemCapacity": 20,
+	"shieldHealth":1000,
+	"cooldownNormal":1.75,
+	"cooldownLiquid":5.4,
+	"cooldownBrokenBase":0.5,
+"phaseShieldBoost":250
+	"consumes":{
+		"power":30 ,
+		"items":{
+			"items":[
+				{"item":"型钢锭","amount":1}
+			],
+			"booster":true
+			"optional": true
+		}
+	},
+	"requirements": [
+	    { "item": "copper", "amount": 500 }
+		{ "item": "lead", "amount": 500 }
+		{ "item": "silicon", "amount": 650 }
+		{ "item":"电阻","amount":50}
+	],
+	"category": "effect",
+	"research":"mend-projector"
+}

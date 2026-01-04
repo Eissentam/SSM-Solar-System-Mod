@@ -1,0 +1,17 @@
+{
+      "name":"高速卸货器",
+      "description": "物流中心特供",
+      "health": 900,
+      "size":1,
+      "speed": 1.5,
+      "solid": true,
+      "update": true,
+      "hasItems": true,
+      "type":"Unloader",
+      "requirements": [
+        {"item": "lead", "amount":3},
+		{"item": "silicon", "amount": 4},
+		{"item": "titanium", "amount": 5}
+	],
+    "research":"分子传送带"
+    }

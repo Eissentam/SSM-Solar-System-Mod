@@ -1,0 +1,15 @@
+{
+	"name": "型钢墙",
+	"description": "坚硬，耐打击吸收激光，有很大的几率反弹子弹",
+	"type": "Wall",
+	"health": 3000,
+	"size": 1,
+	"flashHit":true
+	"chanceDeflect":95
+	"absorbLasers":true,
+	"requirements": [ 
+	{ "item": "型钢锭", "amount": 6}
+	],
+	"category": "defense",
+	"research": "thorium-wall-large"
+}

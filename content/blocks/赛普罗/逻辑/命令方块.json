@@ -1,0 +1,13 @@
+{
+    "type": "LogicBlock",
+    "range": 520,
+    "instructionsPerTick": 5,
+    "size": 1,
+    "name": "命令方块",
+    "category": "logic",
+    "research": "micro-processor"
+	"requirements": [
+	{ "item": "silicon", "amount": 160 },
+	],
+    "description": "[green]从隔壁我的世界借鉴过来的（doge "
+}

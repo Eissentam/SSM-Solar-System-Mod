@@ -1,0 +1,73 @@
+{
+	"type": "GenericCrafter",
+	"health": 3600,
+	"name": "申请授权站",
+	"description": "向终端申请授权[red]时间较长耗电高",
+	"outputItem": 
+{"item": "使用授权", "amount": 1},
+"itemCapacity": 200,
+    "size": 2,
+    "updateEffect": {
+        "type": "WaveEffect",
+        "lifetime": 30,
+        "sizeFrom": 0,
+        "sizeTo": 10,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFF1D2FF",
+        "colorTo": "FFD197FF"
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            "DrawWeave",
+            "DrawDefault"
+        ]
+    },
+    "craftTime": 60000,
+    "consumes": {
+        "power": 6.5,
+        "items": {
+            "items": [{"item":"银矿","amount":15}
+	{"item":"型钢锭","amount":15}
+	{"item": "copper", "amount": 5},
+	{"item": "lead", "amount": 5},
+	{"item": "titanium", "amount": 5},
+	{"item": "metaglass", "amount": 5},
+	{"item": "thorium", "amount": 5},
+	{"item": "graphite", "amount": 5},
+	{"item": "silicon", "amount": 5},
+	{ "item": "plastanium", "amount": 5 },
+	{ "item": "surge-alloy", "amount": 5 } ,
+	{ "item": "phase-fabric", "amount": 5 }
+	{"item":"锂","amount":15}
+	{"item":"土钢","amount":10}
+	{"item":"铀","amount":15}]
+        }
+    },
+    "requirements": [
+        {
+            "item": "电阻",
+            "amount": 45
+        },
+        {
+            "item": "silicon",
+            "amount": 65
+        },
+        {
+            "item": "芯片",
+            "amount": 45
+        },
+        {
+            "item": "型钢锭",
+            "amount": 5
+        },
+    ],
+    "ambientSound":"techloop",
+    "category": "crafting",
+    "research": "duo",
+}

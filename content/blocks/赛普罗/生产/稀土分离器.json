@@ -1,0 +1,56 @@
+{
+	"type": "GenericCrafter",
+	"name": "氯化镧分离器",
+	"description": "分离出氯化镧，可能有所损耗",
+	"outputItem": { "item": "氯化镧", "amount": 15},
+"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+	{"type":"DrawPistons",
+	"sinMag":1.5},
+	"DrawDefault",
+	{"type": "DrawLiquidRegion",
+	"drawLiquid": "water"},
+	{"type": "DrawRegion",
+	"suffix": "-top"}
+	]},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"itemCapacity": 20,
+    "liquidCapacity": 90,
+	"updateEffect": {
+    "type": "ParticleEffect",
+        "particles": 3,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "length": 15,
+        "baseLength": 10,
+        "lifetime": 10,
+        "colorFrom": "E3E3E390",
+        "colorTo": "ffffff",
+        "cone": 360
+            },
+	"consumes": {
+	"liquid": 
+	{"liquid": "water", "amount": 0.6 }
+    "power":6,
+    "items": {
+	 "items": [
+	    { "item": "稀土", "amount": 3}
+	]
+  }
+ },
+"requirements": [
+        { "item": "copper", "amount": 45},
+        { "item": "lead", "amount": 45},
+		{ "item": "titanium", "amount": 45},
+		{ "item": "metaglass", "amount": 20 },
+		{"item": "silicon","amount":35}
+		{"item": "镍","amount":35}
+	],
+	"category": "crafting",
+	"research": "spore-press"
+}

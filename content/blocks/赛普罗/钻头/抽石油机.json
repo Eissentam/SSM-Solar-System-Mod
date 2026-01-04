@@ -1,0 +1,24 @@
+{
+"name":"抽石油机" ,
+"description":"从地下抽出石油来",
+"type": "SolidPump",
+"health": 2500,
+"size": 3,
+"floating":true,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 60,
+	"requirements": [
+	    {"item": "lead", "amount": 5},
+	    {"item": "silicon", "amount": 5},
+		{"item": "graphite", "amount": 5},
+],
+"consumes": { "power": 1.8},
+"pumpAmount": 5.6,
+"rotateSpeed": 5.6,
+"result":"oil",
+"baseEfficiency": 1,
+"attribute": "water",
+"category": "production",
+"research": "water-extractor"
+}

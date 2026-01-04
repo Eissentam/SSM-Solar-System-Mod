@@ -1,0 +1,36 @@
+{
+	"name": "量子钻头",
+	"description": "通过量子能量转化成动力
+[red]但需要大量的水",
+	"type": "Drill",
+	"size": 3,
+	"tier": 8,
+	"health": 2500,
+	"rotateSpeed":11.1,
+	"warmupSpeed":0.1,
+	"itemCapacity": 200,
+	"liquidCapacity": 500,  
+	"canOverdrive": true,
+	"drawRim":true,
+	"hasItems": true,
+	"drillTime": 35,  
+	"updateEffect": "mineBig",
+	"liquidBoostIntensity": 2.01,
+	"consumes": {
+	"power":5,  
+	"liquid": {
+       "liquid": "water",
+       "amount": 0.4,
+       "booster": true,
+       "optional": true
+        }
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 25 },
+		{ "item": "graphite", "amount": 45 },
+		{ "item": "titanium", "amount": 20  },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

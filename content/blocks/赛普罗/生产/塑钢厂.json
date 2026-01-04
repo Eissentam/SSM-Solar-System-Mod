@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型塑钢厂",
+	"description": "相较于原型产出塑钢速度更快",
+	"outputItem": { "item": "plastanium", "amount": 60},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"itemCapacity": 150,
+	"liquidCapacity": 60,
+	"updateEffect":"mineBig",
+	"craftEffect": "plasticburn",
+	"consumes": {
+    "power":3.5,
+    "liquid":{
+	"liquid":"oil",
+	"amount":0.01,
+	"booster":false	},
+    "items": {
+	 "items": [
+	    { "item": "titanium", "amount": 60 }	]
+  }
+ },
+"requirements": [
+        {"item":"copper","amount":50},
+		{"item": "lead", "amount": 200 },
+		{ "item": "graphite", "amount": 100 },
+		{"item": "silicon","amount":100 },	
+		{"item": "thorium","amount":30},
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"researchCostMultiplier": 0.5,
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,53 @@
+{
+	"type": "Separator",
+	"name": "分子重组机",
+	"description": "分解分子为基本物理粒子并重组，以此来分离出几乎所有的材料",
+	"results": [
+	{"item": "石灰石", "amount": 25},
+	{"item": "稀土", "amount": 25},
+	{"item":"银矿","amount":15}
+	{"item":"型钢锭","amount":15}
+	{"item": "copper", "amount": 5},
+	{"item": "lead", "amount": 5},
+	{"item": "titanium", "amount": 5},
+	{"item": "metaglass", "amount": 5},
+	{"item": "thorium", "amount": 5},
+	{"item": "graphite", "amount": 5},
+	{"item": "silicon", "amount": 5},
+	{ "item": "plastanium", "amount": 5 },
+	{ "item": "surge-alloy", "amount": 5 } ,
+	{ "item": "phase-fabric", "amount": 5 }
+	{"item":"锂","amount":15}
+	{"item":"土钢","amount":10}
+	{"item":"铀","amount":15}
+	],
+	"size": 3,
+	"drawers":[
+     "DrawDefault",
+	{"type":"DrawLiquidRegion",
+	"drawLiquid":"slag",
+	"suffix":"-液"},
+    {"type":"DrawRegion",
+    "suffix":"-扇",
+    "spinSprite":true,
+    "rotateSpeed":4}
+    ],
+	"itemCapacity": 400,
+	"hasPower": true,
+	"hasItems": true,
+	"liquidCapacity": 600,
+	"craftTime": 15,
+	"consumes": {
+		"power": 6.5,
+		"liquid": { "liquid": "slag", "amount": 0.2 }
+	},
+	"requirements": [
+	{ "item":"copper","amount":200},
+	{ "item": "graphite", "amount": 130 },
+	{ "item": "titanium", "amount": 180 },
+	{ "item": "型钢锭", "amount": 10 },
+	
+	],
+	"category": "crafting",
+	"research": "separator",
+}

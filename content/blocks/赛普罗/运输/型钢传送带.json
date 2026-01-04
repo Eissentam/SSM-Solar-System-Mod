@@ -1,0 +1,16 @@
+{
+	"type": "StackConveyor",
+	"name": "型钢传送带",
+	"description": "绝缘外壳，更安全地打包物品进行运输。",
+	"health": 1110,
+	"insulated":true,
+	"requirements": [
+	{"item": "lead", "amount":1 },
+	{"item": "型钢锭", "amount":1 },
+	{"item": "silicon", "amount":1 }
+	],
+	"category": "distribution",
+	"research":"plastanium-conveyor",
+	"speed": 0.1,
+	"itemCapacity":30
+}

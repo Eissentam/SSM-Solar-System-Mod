@@ -1,0 +1,16 @@
+{
+	"name": "大型智能墙",
+	"description": "拥有自主意识的墙壁，几乎可以反弹袭来的所有子弹",
+	"type": "Wall",
+	"health": 20000,
+	"size": 2,
+	"deflect" :true
+	"flashHit":true
+	"chanceDeflect":99
+	"absorbLasers":true,
+	"requirements": [ 
+	{ "item": "芯片", "amount": 12}
+	],
+	"category": "defense",
+	"research": "智能墙"
+}

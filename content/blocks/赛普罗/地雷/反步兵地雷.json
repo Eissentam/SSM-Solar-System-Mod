@@ -1,0 +1,21 @@
+{
+    "type":"ShockMine",
+    "name":"反步兵地雷",
+    "description":"[blue]伤害高，隐蔽性强，可多次触发",
+    "size":1,
+    "health":1200,
+    "damage":850,
+    "tileDamage":12,
+    "length":20,
+    "tendrils":8,
+    "shots":12,
+    "cooldown":1,
+    "hasShadow":false,
+    "requirements": [
+        "精炼钢/5",
+        "silicon/1",
+        "copper/2"
+        ],
+    "category": "effect",
+    "research": "shock-mine"
+}

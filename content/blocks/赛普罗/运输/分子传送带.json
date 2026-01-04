@@ -1,0 +1,15 @@
+{
+	"type": "Conveyor",
+	"name": "分子传送带",
+	"description": "向前方运输物品，比基础传输带快亿些",
+	"health": 450,
+	"requirements": [
+	{"item": "copper", "amount": 1},
+	{"item": "lead", "amount": 1}	
+	{"item":"titanium","amount":1}
+	],
+	"category": "distribution",
+	"research":"titanium-conveyor",
+	"speed": 0.8,
+	"displayedSpeed": 60
+}
