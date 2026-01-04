@@ -1,0 +1,12 @@
+{
+	"name": "电感",
+	"description": "阻交流通直流，阻高频通低频或滤波，即频信号通过电感线圈时将遇到阻力，而对低频信号通过时所呈现的阻力则比较小，即低频信号可较容易通过，电感线圈对直流电的电阻几乎为零",
+	"cost":1,
+	"color": "C68855FF",
+	"alwaysUnlocked":false,   
+	"hardness":"2",
+	"radioactivity": 0.1,
+	"explosiveness": 0.1,
+	"flammability": 0.1,
+	"research": "电阻"
+}

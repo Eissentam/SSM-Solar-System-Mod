@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "铅传送带",
+	"description": "向前方运输物品，比基础传输带快0.5倍",
+	"details":"由于是由纯铅打造所以强度和硬度会有所降低",
+	"health": 250,
+	"requirements": [
+	{"item": "lead", "amount": 1}	
+	],
+	"category": "distribution",
+	"research":"土钢传送带",
+	"speed": 0.09,
+	"displayedSpeed": 0.09
+}

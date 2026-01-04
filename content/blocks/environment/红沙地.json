@@ -1,0 +1,10 @@
+{
+	"type": "floor",
+	"name": "红沙",
+	"itemDrop": "红沙",
+	"speedMultiplier": 0.95,
+	"attributes":
+	{"oil": 0.5,"water":0.2},
+	"variants":2,
+	"playerUnmineable": true,
+}

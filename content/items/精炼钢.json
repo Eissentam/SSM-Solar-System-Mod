@@ -1,0 +1,12 @@
+{
+	"name": "精炼钢",
+	"description": "高硬度，高强度，高耐热、耐寒性，在外太空依旧能够运行自如。用于制作先进装甲、弹头与高强度钻头",
+	"details":"热不变形，冷不变硬，抗旱防潮，结实耐糙，绝对可靠",
+	"cost":1,
+	"color": "C1B9B9FF",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "土钢"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "一氧化碳",
+	"type": "liquids",
+	"description": "用来还原氧化铁",
+	"details":"初三的化学（doge）"
+	"alwaysUnlocked":false,
+	"color": "B0B9C0FF",
+	"effect":"tarred",
+	"flammability": 1,
+	"temperature": 0.1,
+	"heatCapacity": 0.5,
+	"viscosity": 0,
+	"explosiveness": 1,
+	"research": "土钢"
+}

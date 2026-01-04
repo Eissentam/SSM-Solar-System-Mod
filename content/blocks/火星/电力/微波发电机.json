@@ -1,0 +1,54 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "微波发电机",
+    "description": "相较于用燃烧化石燃料推动涡轮发电的设备，微波加热涡轮发电机的消耗更少——至少不需要煤炭加热水，而是用微波加热来更快的发电",
+    "size": 2,
+    "health": 360,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration": 100,
+    "powerProduction":17.5,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            "DrawWarmupRegion",
+            {
+                "type": "DrawRegion",
+                "suffix": "-turbine",
+                "rotateSpeed":2
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-turbine",
+                "rotateSpeed":-2,
+                "rotation":45
+            }
+        ]
+    },
+    "generateEffect": "generatespark",
+    "consumes": {
+        "itemFlammable": {},
+        "liquid": "water/0.1"
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 35
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "silicon",
+            "amount": 15
+        },
+    ],
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.06,
+    "category": "power",
+    "research": "远征一号"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "大型土钢",
+	"description": "由于没有经过精炼，所以很脆。",
+	"type": "Wall",
+	"health": 1000,
+	"size": 2,
+	"absorbLasers":false,
+	"requirements": [
+	{ "item": "土钢", "amount": 24} 
+	],
+	"category": "defense",
+	"research": "土钢墙"
+}

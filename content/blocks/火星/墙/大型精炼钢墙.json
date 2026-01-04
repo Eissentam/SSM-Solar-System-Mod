@@ -1,0 +1,14 @@
+{
+	"name": "大型精炼钢墙",
+	"description": "由于经过了精炼坚硬且致密，耐温好，耐打击，但不耐酸碱，绝对可靠。",
+	"type": "Wall",
+	"health": 9600,
+	"size": 2,
+	"absorbLasers":false,
+	"absorbLasers":true,
+	"requirements": [
+	{ "item": "精炼钢", "amount": 24} 
+	],
+	"category": "defense",
+	"research": "精炼钢墙"
+}

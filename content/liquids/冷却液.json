@@ -1,0 +1,14 @@
+{
+	"name": "冷却液",
+	"type": "liquids",
+	"description": "作用于冷却炮塔或反应堆",
+	"alwaysUnlocked":false,
+	"color": "7FBFFFFF",
+	"effect":"tarred",
+	"flammability": 0,
+	"temperature": 0.01,
+	"heatCapacity": 15,
+	"viscosity": 0.3,
+	"explosiveness": 0,
+	"research": "银液"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "镧壳",
+	"description": "金属镧壳用于生产镍氢电池，这是镧最主要的应用之一",
+	"cost": 1,
+	"color": "A0A29fff",
+	"radioactivity": 0.1,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research":"氯化镧"
+}

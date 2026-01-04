@@ -1,0 +1,38 @@
+//模板由一只ZZ君制作（自己用自己的模板doge）
+{
+  "type":"NuclearReactor"//类型,不能改也不用改
+   "name": "核聚变反应堆",//名字
+   "description": "能够在火星上建造的可控核聚变反应堆，这是真正的无尽能源。它的出现代表着人类为物质和能量的追求与争夺将是徒劳。超低的材料消耗、极高的电力产量都是它的标签，也因此经常出现在各大科幻作品之中。但是启动时间极长，并且一定要保证液氦供应，否则后果自负！",//用途
+   "size": 6,//方块是几乘几
+   "health":2000,//血量
+   "powerProduction":8000,//1=60(发电量)
+     /*消耗*/"consumes": {
+		"liquid":{"liquid":"cryofluid","amount":0.4},//1=60
+        "items": {
+            "items": [
+                {"item": "浓缩铀","amount": 1}//一次消耗几个
+            ]
+        }
+    },
+   "itemCapacity":30,//物品容量
+   "coolantPower":1//冷却剂功率
+   "liquidCapacity":40,//液体容量
+   "itemDuration":180//项目持续时间1:-60,相当于这里写60游戏里等于一秒
+   "explosionRadius":666,//爆炸半径
+   "explosionDamage":5000,//爆炸伤害
+   "baseExplosiveness":1000,//基础爆炸性
+ /*建造消耗*/ 
+ "requirements": [
+  "lead/400","silicon/450","精炼钢/400","thorium/400"
+  ],
+   "research":"微波发电机"//科技树位置
+   "category": "power"//物品显示类别
+   "heating":0.01,//没有冷却剂时每帧增加热量，数值超过一没有冷却剂时直接爆炸
+   "flashThreshold":0.1,//报警温度
+   "smokeThreshold":0.4,//烟雾
+   "ambientSound":"hum",//音效
+   "ambientSoundVolume":100,
+   "rebuildable":false,//被摧毁后是否能被修补单位重新建造
+  "hasItems": true,//是否需要物品
+  "canOverdrive":false,//是否可以超速
+}

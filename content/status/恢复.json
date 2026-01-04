@@ -1,0 +1,31 @@
+{
+"name":"恢复",
+    "damage":-5,
+	"healthMultiplier":2,
+	"effectChance":0.3,
+    "opposites": [
+        "burning",
+		"wet",
+        "sapped",
+		"freezing",
+        "melting",
+        "tarred",
+        "muddy",
+        "blasted",
+        "corroded",
+        "瓦灭",
+        "辐射"
+	],
+	"effect":{	"type": "ParticleEffect",
+    "particles": 1,  
+    "baseLength": 30,
+    "length":-30,
+    "lifetime": 30,
+    "spin":6,
+    "region":"太阳系模组-菱",
+    "sizeFrom": 1,
+    "sizeTo": 0,
+    "colorFrom": "97FFA8",
+    "colorTo": "97FFA8",
+    "cone":360 }
+}

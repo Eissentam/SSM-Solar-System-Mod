@@ -1,0 +1,13 @@
+{
+	"name": "锂",
+	"description": "用于原子反应堆、制轻合金及电池等",
+	"details":"锂（Lithium）是一种金属元素，元素符号为Li，对应的单质为银白色质软金属，也是密度最小的金属",
+	"cost":1,
+	"color": "C8C8C8FF",
+	"alwaysUnlocked":false,   
+	"hardness":"1",
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+    "research": "银矿"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "熔岩矿",
+	"description": "拥有超高温度的岩浆块",
+	"details":"据说他来自地狱",
+	"hardness": 1,
+	"cost":1,
+	"color": "FF9448FF",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 1,
+	"charge":0,
+	"frames":3,
+	"transitionFrames":1,
+	"frameTime":5,
+	"research": "surge-alloy"
+}

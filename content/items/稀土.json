@@ -1,0 +1,10 @@
+{
+	"name": "稀土",
+	"description": "稀土(Rare Earth),是化学周期表中镧系元素和钪、钇共十七种金属元素的总称",
+	"cost": 1,
+	"color": "414548ff",
+	"radioactivity": 2,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research":"铀"
+}

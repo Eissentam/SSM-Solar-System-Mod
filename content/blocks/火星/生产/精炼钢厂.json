@@ -1,0 +1,71 @@
+{
+	"type": "GenericCrafter",
+	"name": "精炼钢厂",
+	"description": "科学家发现冶炼土钢的过程中加入适当的铅与碳可以大幅提高金属的耐腐蚀性、延展性，并且硬度大、强度大、密度高、熔点高，令人意外的是科学家在检测新型合金时发现此合金对于对α、β、γ射线的防护能力大幅提高，于是这种新型合金拥有了一个朴素的名字“精炼钢”精炼钢场便就此应运而生",
+	"health": 600,
+	"outputItem": { "item": "精炼钢", "amount": 4},
+	"size": 2,
+	"craftEffect":{"type": "MultiEffect",
+        "effects": [
+{"type": "ParticleEffect",
+        "particles": 8,
+        "sizeFrom": 8,
+        "sizeTo": 0,
+        "length": 35,
+        "baseLength": 13,
+        "lifetime": 55,
+        "colorFrom": "FFFF50",
+        "colorTo": "FFFF60",
+        "cone": 360},
+        {"type":"WaveEffect",
+        "lifetime": 60,
+    "sizeFrom":0,
+    "sizeTo": 20,
+        "strokeFrom":3,
+        "strokeTo": 0,
+        "colorFrom": "7F7F7FFF",
+        "colorTo": "FFFFFF00"}]},
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+        {
+"type":"DrawPulseShape",
+"color":"FD864D",
+"stroke":1,
+"timeScl":120,
+"minStroke":0,
+"layer":60,
+"square":false
+}
+	    {
+	    "type":"DrawRegion",
+	    "suffix":"-地盘"
+	    },
+            "DrawDefault",
+			"DrawFade"
+            ]
+    },
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"itemCapacity": 35,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":7.0,
+    "items":[
+	  { "item": "graphite", "amount": 10}
+	  { "item": "lead", "amount": 10}
+	  { "item": "土钢", "amount": 5}
+	]
+ },
+"requirements": [
+    {"item": "土钢", "amount": 50},
+	{ "item": "lead", "amount": 50 },
+	{ "item": "型钢锭", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "游离粒子捕捉器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,13 @@
+{
+	"name": "土钢",
+	"description": "火星上的新元素，经过多种矿物一起加工后得到精炼钢，用途广泛。",
+	"details":"火星上常见的的金属，致密较脆",
+	"cost":1,
+	"color": "EC9532FF",
+	"alwaysUnlocked":false,   
+	"hardness":"2",
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "远征一号"
+}

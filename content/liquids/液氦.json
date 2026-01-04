@@ -1,0 +1,15 @@
+{
+	"name": "液氦",
+	"type": "liquids",
+	"description": "绝对零度，absolute zero，是热力学的最低温度，仅存于理论的下限值。其热力学温标写成K，等于-273.15℃。物质的温度取决于其内原子、分子等粒子的动能",
+    "details":"[blue]理论上讲，若粒子动能低到量子力学的最低点时，物质即达到绝对零度，不能再低，此时原子和分子拥有量子理论允许的最小能量。然而，绝对零度永远无法达到，只可无限逼近，所以绝对零度是不可能达到的最低温度（实际上液氦是无色无味的，但是为了游戏能够正常运行所以我给它添加了冷冻液类的专用颜色）",
+	"alwaysUnlocked":false,
+	"color": "0066CFFF",
+	"effect":"tarred",
+	"flammability": 0,
+	"temperature": -2.7315,
+	"heatCapacity": 65,
+	"viscosity": 0.3,
+	"explosiveness": 0,
+	"research": "冷却液"
+}

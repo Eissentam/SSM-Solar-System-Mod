@@ -1,0 +1,20 @@
+{
+	"type": "ArmoredConduit",
+	"name": "绝热装甲导管",
+	"description": "快速地在战场输送液体，不接受边上的输入，已做水密封处理，耐高温且绝缘",
+	"health": 4500,
+	"insulated":true,
+	"absorbLasers":true,
+	"displayFlow":true,
+	"placeableLiquid": true,
+	"requirements": [
+	{"item": "metaglass", "amount":2},
+    {"item": "titanium", "amount":1 },
+    {"item": "精炼钢", "amount":1 },
+	{"item": "熔岩矿", "amount":1 }
+	],
+	"category": "liquid",
+	"research":"plated-conduit",
+	"liquidCapacity":32
+    
+}

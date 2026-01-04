@@ -1,0 +1,17 @@
+{
+    "type": "SolarGenerator",
+    "name": "太阳能版",
+    "description": "火星上的太阳能板使用倍率为1.5倍",	
+    "health":200,
+    "size": 2,
+    "hasPower": true,
+    "powerProduction": 1,
+    "requirements": [
+        { "item": "土钢", "amount": 50 },
+        { "item": "silicon", "amount": 75 },
+        { "item": "graphite", "amount": 70 },
+        { "item": "lead", "amount": 50 },
+    ],
+    "category": "power",
+    "research": "微波发电机"
+}

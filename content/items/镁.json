@@ -1,0 +1,14 @@
+{
+    "name":"镁"
+	"description": "由于化学性质活泼，又可以燃烧，所以可以用来做弹药",
+	"details":"遇氧易燃的元素，但是在没有氧气的火星地表，应该会安全一些吧上的常见金属，致密坚硬，",
+	"cost":1,
+	"color": "A1A0A0FF",
+	"alwaysUnlocked":false,   
+	"hardness":"7",
+	"healthScaling": 1.8,
+	"radioactivity": 0,
+	"explosiveness": 0.2,
+	"flammability": 0.8,
+	"research": "精炼钢"
+}

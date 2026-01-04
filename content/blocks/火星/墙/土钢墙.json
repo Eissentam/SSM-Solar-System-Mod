@@ -1,0 +1,13 @@
+{
+	"name": "土钢墙",
+	"description": "由于没有经过精炼，所以很脆。",
+	"type": "Wall",
+	"health": 800,
+	"size": 1,
+	"absorbLasers":false,
+	"requirements": [
+	{ "item": "土钢", "amount": 6}
+	],
+	"category": "defense",
+	"research": "小钢炮"
+}

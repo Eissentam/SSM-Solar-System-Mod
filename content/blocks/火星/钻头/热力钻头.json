@@ -1,0 +1,33 @@
+{
+    "name":"热力钻头",
+    "type": "Drill",
+    "description":"由于是使用[red]土钢[white]制造而成的钻头所以血量非常的低",
+    "details":"通过将火星上大量的热能转换为电能来驱动钻头",
+    "size": 2,
+    "health": 900,
+    "tier": 2,
+    "drillTime": 60,   
+    "liquidBoostIntensity":1,
+    "canOverdrive": true,
+    "drawRim": true,
+    "warmupSpeed": 0.3,
+    "drillEffect": "none",
+    "updateEffect": "none",
+    "rotateSpeed": 5.6,
+    "drawMineItem": false,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.05,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "itemCapacity": 20,
+    "liquidCapacity": 10,
+    "requirements": [	
+   { "item": "土钢", "amount": 15 }
+    ],
+    "category": "production",
+    "research": "远征一号"
+}

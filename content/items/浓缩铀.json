@@ -1,0 +1,10 @@
+{
+	"name": "浓缩铀",
+	"description":"经过提纯的铀，可以满足核电站与特种弹药的需要。经过提纯，它将会变得更危险。",
+	"cost": 2,
+	"color": "FEF400FF",
+	"radioactivity": 6,
+	"explosiveness": 0,
+	"flammability": 0.0
+	"research":"铀"
+}

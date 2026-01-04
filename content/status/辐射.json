@@ -1,0 +1,21 @@
+{//本注释由一只ZZ君译，注释仅供参考
+"name":"辐射",//名字
+"speedMultiplier":0.5//速度倍增器（可以理解为对作用单位增加的速度）
+"healthMultiplier":0.2//健康乘数（每秒减去的血量）
+"reloadMultiplier":0.3//重新加载乘数（每秒伤害间隔）
+"damage":100,//伤害
+"transitionDamage":10
+"effect":{"type": "MultiEffect",//多效（可理解为效应对作用单位产生的多种粒子效应）
+    "effects": [
+        {	"type": "ParticleEffect",//粒子效应
+    "particles": 6,//粒子
+    "baseLength": 0,//基线长度
+    "length":25,//长度
+    "lifetime": 10,//存在时长
+    "sizeFrom": 2,//尺寸来自
+    "sizeTo": 0,//将大小调整为
+    "colorFrom": "FFFFF7FF",//这里为颜色,透明度是最后两位
+    "colorTo": "7FFF0090",
+    "cone":360 },//角度
+]},
+}

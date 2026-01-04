@@ -1,0 +1,10 @@
+{
+	"name": "铀",
+	"description":"辐射性矿物，不稳定。直接开采的铀矿纯度较低，一般无法直接使用。",
+	"cost": 1,
+	"color": "FEF400FF",
+	"radioactivity": 2,
+	"explosiveness": 0,
+	"flammability": 0.0
+	"research":"型钢锭"
+}

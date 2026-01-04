@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "土钢传送带",
+	"description": "向前方运输物品",
+	"details":"由于是由纯土钢打造所以强度和硬度会有所降低"
+	"health": 200,
+	"requirements": [
+	{"item": "土钢", "amount": 1}	
+	],
+	"category": "distribution",
+	"research":"远征一号",
+	"speed": 0.05,
+	"displayedSpeed": 0.05
+}

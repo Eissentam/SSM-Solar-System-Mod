@@ -1,0 +1,54 @@
+{
+    "type":"flying",
+    "name":"德尔塔",
+	"description": "保护远征一号",
+	"speed": 2.4,
+	"drag":0.1,"accel":0.05,
+	"rotateSpeed":6,
+	"hitSize":6,
+	"ammoCapacity": 400,
+	"flying": true,
+	"canHeal": true,
+	"itemCapacity":40,
+	"buildSpeed":1.5,
+    "mineSpeed": 1.2,
+    "mineTier": 6,
+	"health": 600,
+	"ammoType":"blast-compound",
+	"faceTarget": false,
+	"armor":5,
+	"alternate": false,
+	"abilities": [
+	{"type": "ForceFieldAbility",
+    "reload": 10,
+    "radius":20,
+    "angle":280,
+    "width":15,
+    "max":8000,
+    "regen":50,
+    "cooldown":100,
+    "angleOffset":270
+	}
+    	  ],
+    "weapons":[ 
+	{	"name": "蓝瑟1",	
+		"reload": 25, 
+  	    "x": 0,  "y": -5, 
+  	    "rotate": true,
+  	    "mirror":false,
+  	    "rotateSpeed":9,
+		"shootSound": "railgun",
+			"bullet":{
+			"type":"LaserBulletType",
+			"collidesAir":true,
+			"damage":95,
+   		    "speed":0,    "lifetime":24,
+   		    "smokeEffect":"none",
+  		    "width":6,	"length":250,
+  		    "hitEffect":"explosion",
+			"despawnEffect":"none",
+			"colors":["E98E4250", "E98E42FF", "E98E4260"]
+		}	
+	}
+	]	
+}

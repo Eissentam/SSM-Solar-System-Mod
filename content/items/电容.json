@@ -1,0 +1,13 @@
+{
+	"name": "电容",
+	"description": "电容器在调谐、旁路、耦合、滤波等电路中起着重要的作用。晶体管收音机的调谐电路要用到它，彩色电视机的耦合电路、旁路电路等也要用到它",
+	"details":"两个相互靠近的导体，中间夹一层不导电的绝缘介质，这就构成了电容器。当电容器的两个极板之间加上电压时，电容器就会储存电荷",
+	"cost":1,
+	"color": "8785AAFF",
+	"alwaysUnlocked":false,   
+	"hardness":"2",
+	"radioactivity": 0.1,
+	"explosiveness": 0.1,
+	"flammability": 0.1,
+	"research": "电阻"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "型钢锭",
+	"description": "一种强大的放射性金属",
+	"details":"ZZ君：“他就像塞进了一张元素周期表。”",
+	"cost":1,
+	"color": "E600F5FF",
+	"alwaysUnlocked":false,
+	"radioactivity": 1,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "graphite"
+}

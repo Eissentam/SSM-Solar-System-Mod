@@ -1,0 +1,80 @@
+{
+	"type": "GenericCrafter",
+	"name": "游离粒子捕捉器",
+	"description": "[blue]依靠定性的、脱离火星引力的磁粒子诱导外太空游离的氢、氧粒子合成水分子。",
+	"details": "知识链接（）：外太空并不是完全真空的，太阳系附近的太空中，每立方厘米约有100个依靠各种各样方式逃逸的原子，其中大多数从地球大气中逃逸的氢、氧粒子。水分子由两个氢原子和一个氧原子组成，借此来合成水（）"
+    "health": 600,
+	"outputLiquid": {"liquid": "water", "amount": 0.05},
+	"itemCapacity": 20,
+	"size": 3,
+	"craftEffect":{"type": "MultiEffect",
+        "effects": [
+{"type": "ParticleEffect",
+        "particles": 8,
+        "sizeFrom": 8,
+        "sizeTo": 0,
+        "length": 35,
+        "baseLength": 13,
+        "lifetime": 55,
+        "colorFrom": "FFFFFF",
+        "colorTo": "FFFFFF",
+        "cone": 360},
+        {"type":"WaveEffect",
+        "lifetime": 60,
+    "sizeFrom":60,
+    "sizeTo": 20,
+        "strokeFrom":0,
+        "strokeTo": 3,
+        "colorFrom": "7FBFFFFF",
+        "colorTo": "7FBFFF00"},
+        {"type":"WaveEffect",
+        "lifetime": 30,
+    "sizeFrom":60,
+    "sizeTo": 0,
+        "strokeFrom":0,
+        "strokeTo": 3,
+        "colorFrom": "7FFF7FFF",
+        "colorTo": "7FFF7F00"}]},
+	"drawer":{
+	    "type":"DrawMulti",
+	    "drawers":[
+	    {
+"type":"DrawPulseShape",
+"color":"77B3EE",
+"stroke":1,
+"timeScl":120,
+"minStroke":0,
+"layer":60,
+"square":false
+}
+	    {
+	    "type":"DrawRegion",
+	    "suffix":"-地盘"
+	    },
+	    {
+	       "type":"DrawLiquidTile",
+	    "drawLiquid":"water"
+	    },
+	    "DrawDefault"
+	]},
+    "hasItems": false,
+	"hasLiquids": true,
+	"solid": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 2.5,
+			},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "graphite", "amount": 60 },
+	{ "item": "metaglass", "amount": 40},
+	{ "item": "silicon", "amount": 40 },
+	],
+	"ambientSound":"respawn",
+	"category": "crafting",
+	"research": "远征一号"
+}

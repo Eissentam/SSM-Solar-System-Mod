@@ -1,0 +1,13 @@
+{
+	"name": "银",
+	"description": "一种常见的金属元素",
+	"details":"银是白色有光泽的元素，它具有很好的延展性，其导电性和传热性在所有的金属中都是最高的，在火星上的储量预计要比地球多数倍。",
+	"cost":1,
+	"color": "B0B9C0FF",
+	"alwaysUnlocked":false,   
+	"hardness":"1",
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "copper"
+}

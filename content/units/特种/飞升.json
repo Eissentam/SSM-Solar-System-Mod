@@ -1,0 +1,141 @@
+{
+    "type":"flying"
+    "name":"飞升"
+	"description": "使用激光武器作为防御武器和114火炮（喜）"
+	"details":"暂无"
+	"speed": 4,
+	"drag":0.3,"accel":0.6,
+	"rotateSpeed":6,
+	"hitSize":24,
+	"ammoCapacity": 400,
+	"flying": true,
+	"canHeal": true,
+	"itemCapacity":120,
+	"buildSpeed":10,
+    "mineSpeed": 10,
+    "mineTier": 6,
+	"health": 1650,
+	"engines": [
+        {	"x": -8,"y":-12,
+        "radius": 3,"rotation": -20},
+        {	"x": 8,"y": -12,
+        "radius": 3,"rotation": -110}
+        {	"x": 0,"y": -12,
+        "radius": 6,"rotation": -110}
+        ],
+	"ammoType":"blast-compound"
+	"faceTarget": false,
+	"armor":30,
+    "abilities": [
+{ "type": "StatusFieldAbility",
+    "duration": 300,
+    "reload": 360,
+    "range": 60,
+    "applyEffect":"none",
+    "activeEffect":{"type": "WaveEffect",
+    "lifetime": 120,
+    "sizeFrom":20,
+    "sizeTo": 60,
+    "strokeFrom": 6.5,
+    "strokeTo": 0,
+    "colorFrom": "8CDEFEFF",
+    "colorTo": "FCE0A8FF"},
+    "effect":"overclock"
+    }
+    {"type": "ForceFieldAbility",
+    "reload": 10
+    "radius":40,
+    "angle":280,
+    "width":15,
+    "max":8000,
+    "regen":50,
+    "cooldown":100,
+    "angleOffset":270,}
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":150,
+    "width":20,
+    }
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":150,
+    "width":20,
+    "angleOffset":120,
+    }
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":150,
+    "width":20,
+    "angleOffset":-120,
+    }
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":120,
+    "width":10,
+    "angleOffset":65,
+    }
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":120,
+    "width":10,
+    "angleOffset":175,
+    }
+    {"type": "ShieldArcAbility",
+    "reload": 10
+    "radius":120,
+    "width":10,
+    "angleOffset":-65,
+    }
+    	  ],
+	"deathSound":"cannon"
+	"weapons":[ 
+{	"name": "蓝瑟",	
+	"reload": 20, 
+    "x": 8,  "y": 8, 
+    "rotate": true,
+    "rotateSpeed":9,
+    "mirror":true,
+    "inaccuracy": 1,
+	"shootSound": "railgun",
+	"alternate": true,
+	"bullet":{
+	"type":"LaserBulletType"
+	"collidesAir":true,
+	"damage":105,
+    "speed":0,    "lifetime":24,
+    "smokeEffect":"none",
+    "width":6,	"length":400,
+    "status":"shocked"
+    "hitEffect":"explosion",
+    "despawnEffect":"none"
+    "colors":["E98E4250" "E98E42FF" "E98E4260"]
+	}},
+
+{	"name": "114火炮",	
+	"reload": 114, 
+    "x": -6,  "y": -6, 
+    "rotate": true,
+    "rotateSpeed":9,
+    "mirror":true,
+    "inaccuracy": 0,
+	"shootSound": "shootSmite",
+	"alternate": true,
+	"ejectEffect":"casing3",
+	"shoot": {
+        "shots": 4,
+        "shotDelay": 4,
+    },
+	"bullet":{
+	"collidesAir":false,
+	"damage":514,
+    "speed":12,    "lifetime":35,
+    "smokeEffect":"shootBig",
+    "width":6,	 "height":18,
+    "hitEffect":"explosion",
+    "despawnEffect":"explosion"
+	}},
+	
+
+]
+
+}

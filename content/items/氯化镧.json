@@ -1,0 +1,10 @@
+{
+	"name": "氯化镧",
+	"description": "用作制备石油裂化催化剂，也可作提取单一稀土产品或冶炼富镧混合稀土金属的原料",
+	"cost": 1,
+	"color": "FFFFFF",
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research":"稀土"
+}

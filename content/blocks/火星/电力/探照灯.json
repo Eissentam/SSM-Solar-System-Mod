@@ -1,0 +1,22 @@
+{
+        "type": "LightBlock"
+        "name": "探照灯"
+        "description": "火星上的探照灯半径比普通探照灯要大,也更耗电（别问我为啥还是用赛普罗上的照明灯问就是画师懒的画）"
+        "health":250,
+        "size": 1,
+        "radius":400,
+        "hasPower":true,
+        "consumes": {
+		"power": 5,
+			},
+        "update":true,
+        "configurable":true,
+        "saveConfig":true,
+        "requirements": [
+        "土钢/10"
+        "lead/15"
+        "silicon/5"
+        ],
+        "category": "effect",
+        "research": "太阳能板"
+}

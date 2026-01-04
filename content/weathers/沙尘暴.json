@@ -1,0 +1,20 @@
+{
+"name":"沙尘暴",
+"type":"ParticleWeather",
+"particleRegion":"particle",
+"drawParticles":true,
+"useWindVector":true,
+"Color":"D35F5FFF"
+"sizeMax": 10,
+"sizeMin": 1,
+"density":2100,
+"opacityMultiplier": 1.95,
+"baseSpeed":3.1,
+"force": 1.1,
+"sound":"windhowl",
+"soundVol":0.66,
+"soundVolOscMag":1.5,
+"soundVolOscScl":1100,
+"soundVolMin":0.02,
+"status":"corroded"
+}

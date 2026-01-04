@@ -1,0 +1,9 @@
+{
+"name":"光炫减速",
+"speedMultiplier":0.1
+"healthMultiplier":0.1
+"reloadMultiplier":0.1
+"damage":1
+"transitionDamage":0.1
+"effect":"sporeSlowed"
+}

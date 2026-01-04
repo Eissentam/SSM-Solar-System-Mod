@@ -1,0 +1,16 @@
+{
+	"name": "芯片",
+	"description": "时常制造在半导体晶圆表面上",
+	"details":"[green]集成电路（英语：integrated circuit，缩写作IC；或称微电路（microcircuit）、微芯片（microchip）、晶片/芯片（chip）在电子学中是一种把电路（主要包括半导体设备，也包括被动组件等）",
+	"cost":1,
+	"color": "3F7F00FF",
+	"alwaysUnlocked":false,   
+	"hardness":"2",
+	"radioactivity": 0.1,
+	"explosiveness": 0.1,
+	"flammability": 0.1,
+	"frames":4,
+	"transitionFrames":1,
+	"frameTime":9,
+	"research": "电阻"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "石灰石",
+	"description": "将主要成分为碳酸钙的天然岩石，在适当温度下煅烧，排除分解出的二氧化碳后，所得的以氧化钙(CaO)为主要成分的产品即为石灰，又称生石灰",
+	"cost": 1,
+	"color": "9A9797FF",
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research":"coal"
+}
