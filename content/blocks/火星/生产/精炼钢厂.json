@@ -36,7 +36,7 @@
 "minStroke":0,
 "layer":60,
 "square":false
-}
+},
 	    {
 	    "type":"DrawRegion",
 	    "suffix":"-地盘"
@@ -54,8 +54,8 @@
 	"consumes": {
     "power":7.0,
     "items":[
-	  { "item": "graphite", "amount": 10}
-	  { "item": "lead", "amount": 10}
+	  { "item": "graphite", "amount": 10},
+	  { "item": "lead", "amount": 10},
 	  { "item": "土钢", "amount": 5}
 	]
  },
