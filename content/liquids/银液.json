@@ -1,8 +1,8 @@
 {
 	"name": "液态银",
-	"type": "liquids",
+	"type": "Liquid",
 	"description": "用来配合电子实验室生产出高科技产品",
-	"details":"住口，我知道你在想什么（恼）"
+	"details":"住口，我知道你在想什么（恼）",
 	"alwaysUnlocked":false,
 	"color": "B0B9C0FF",
 	"effect":"tarred",

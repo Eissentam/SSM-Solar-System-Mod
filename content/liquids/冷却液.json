@@ -1,6 +1,6 @@
 {
 	"name": "冷却液",
-	"type": "liquids",
+	"type": "Liquid",
 	"description": "作用于冷却炮塔或反应堆",
 	"alwaysUnlocked":false,
 	"color": "7FBFFFFF",

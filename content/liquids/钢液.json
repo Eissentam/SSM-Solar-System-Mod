@@ -1,0 +1,14 @@
+{
+	"name": "钢液",
+	"type": "Liquid",
+	"description": "用作于生产精炼钢",
+	"alwaysUnlocked":false,
+	"color": "EC9532FF",
+	"effect":"tarred",
+	"flammability": 0,
+	"temperature": 20,
+	"heatCapacity": 0.5,
+	"viscosity": 0.8,
+	"explosiveness": 0,
+	"research": "slag"
+}

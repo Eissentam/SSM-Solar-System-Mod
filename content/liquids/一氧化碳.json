@@ -1,8 +1,8 @@
 {
 	"name": "一氧化碳",
-	"type": "liquids",
+	"type": "Liquid",
 	"description": "用来还原氧化铁",
-	"details":"初三的化学（doge）"
+	"details":"初三的化学（doge）",
 	"alwaysUnlocked":false,
 	"color": "B0B9C0FF",
 	"effect":"tarred",
