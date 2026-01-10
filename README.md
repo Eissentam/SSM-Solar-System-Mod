@@ -2,7 +2,7 @@
 ![logo](https://github.com/Eissentam/SSM-Solar-System-Mod/blob/main/sprites-override/ui/logo.png)
 > 一个为Mindustry添加太阳系内容的模组。
 
-**请注意：本模组已于2023年2月25日停止更新，进入维护状态。详情见下文。**
+**请注意：本模组已于 2023-2-25 停止更新，进入维护状态。详情见下文。**
 
 ## 📜 免责声明与重要说明
 
