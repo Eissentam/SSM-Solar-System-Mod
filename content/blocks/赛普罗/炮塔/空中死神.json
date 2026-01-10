@@ -2,13 +2,13 @@
 "type":"PowerTurret",
 "name":"空中死神",
 "description":"向敌方空中生物发射密集光弹",
-"details":"[blue]7个炮管7倍威力[yellow]还有这个特效10分甚至9分的绚丽（喜）"
+"details":"[blue]7个炮管7倍威力[yellow]还有这个特效10分甚至9分的绚丽（喜）",
 "targetAir":true,
 "targetGround":false,
 "health":3500,
 "armor":6,
 "size":4,
-"shootSound":"bigshot",
+"shootSound":"shootArtillerySapBig",
 "shake":0.5,
 "shootCone":270,
 "inaccuracy":1.2,
@@ -24,7 +24,7 @@
 "shots":21,
 "shotDelay":2.5,
 "type":"ShootBarrel",
-"barrels":[3.5,16.25,0,-3.5,16.25,0,10,16.25,0,-10,16.25,0,4.5,22.25,0,-4.5,22.25,0,0,22.25,0,]},
+"barrels":[3.5,16.25,0,-3.5,16.25,0,10,16.25,0,-10,16.25,0,4.5,22.25,0,-4.5,22.25,0,0,22.25,0]},
 "shootType":{
 "type":"MissileBulletType",
 "damage":85,
@@ -46,26 +46,48 @@
 "trailColor":"FEEBB3FF",
 "shrinkY":0,
 "shootEffect":{
-"type":"WaveEffect",
-"lifetime":6,
-"sizeFrom":1,
-"sizeTo":10,
-"colorFrom":"ffffff",
-"colorTo":"FEEBB3FF"},
+    "type":"WaveEffect",
+    "lifetime":6,
+    "sizeFrom":1,
+    "sizeTo":10,
+    "colorFrom":"ffffff",
+    "colorTo":"FEEBB3FF"
+},
 "smokeEffect":"none",
-"hitEffect":{"type":"SeqEffect",
-"lifetime":10,},
-"despawnEffect":{"type":"SeqEffect",
-"lifetime":8,},
-"ammoMultiplier":1},
+
+"hitEffect":{
+    "type":"SeqEffect",
+    "lifetime":10
+},
+
+"despawnEffect":{
+    "type":"SeqEffect",
+    "lifetime":8
+},
+
+"ammoMultiplier":1
+},
+
 "consumes":{
-"power":20,
-"coolant":{"amount":2,"optional":true}},
+    "power":20,
+    "coolant":{
+      "amount":2,
+        "optional":true
+    }
+},
+
 "rotateSpeed":2.6,
 "range":600,
 "category":"turret",
 "research":"scatter",
-"requirements":[{"item":"copper","amount":360},{"item":"lead","amount":250},{"item":"thorium","amount":360},{"item":"silicon","amount":330},
-{"item":"metaglass","amount":260},
-{"item":"plastanium","amount":270},]
+
+"requirements":[
+    {"item":"copper","amount":360},
+    {"item":"lead","amount":250},
+    {"item":"thorium","amount":360},
+    {"item":"silicon","amount":330},
+    {"item":"metaglass","amount":260},
+    {"item":"plastanium","amount":270}
+]
+
 }

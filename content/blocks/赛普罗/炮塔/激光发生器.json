@@ -1,45 +1,50 @@
 {
 	"type":"PowerTurret",
 	"name":"激光发生器",
-	"description":"发射激光对敌人造成暴击性持续伤害，并且附带眩晕效果
-[blue]超高火力覆盖,无限穿透，别问我为什么要这样改因为我疯掉了（以上内容已被平衡）",
+	"description":"发射激光对敌人造成暴击性持续伤害，并且附带眩晕效果\n[blue]超高火力覆盖,无限穿透，别问我为什么要这样改因为我疯掉了（以上内容已被平衡）",
 	"size":2,
-	"health":1500
-	"rotateSpeed":2.5
+	"health":1500,
 	"canOverdrive": true,
 	"hasPower": true,
 	"hasLiquids": true,
 	"targetAir": true,
 	"targetGround": true,
 	"range": 150,
-	"shootSound":"lancer",
-	"coolantMultiplier":0.8
-	"rotateSpeed":4
-	"consumes": {"power": 2.1,
-        "coolant":{"amount":0.6,"optional":true}  
-                },
+	"shootSound":"shootLancer",
+	"coolantMultiplier":0.8,
+	"rotateSpeed":4,
+
+	"consumes": {
+		"power": 2.1,
+        "coolant":{
+			"amount":0.6,
+			"optional":true
+		}  
+        },
+
 	"shootCone":40,
-	"recoilAmount": 7
+	"recoilAmount": 7,
 	"xRand": 2,
-	"shootSound":"laser",
-	"ammoPerShot":4
-	"reload":10,
-	"smokeEffect":"bigShockwave"
+	"ammoPerShot":4,
+	"reload":20,
+	"smokeEffect":"bigShockwave",
+
 	"shootType":  {     
      "type": "LaserBulletType",
-     "smokeEffect":"smokeCloud"
+     "smokeEffect":"smokeCloud",
      "status": "光炫减速",
-     "damage":210
+     "damage":210,
      "width": 20,
-	 "length":150
-     "lifetime":60
-     "speed":0
-	 "colors":["91AEF550" "91C0F6FF" "96A2FFFF"]
+	 "length":150,
+     "lifetime":60,
+     "speed":0,
+	 "colors":["91AEF550","91C0F6FF","96A2FFFF"]
 	 },
+	 
 	"requirements": [
 	{ "item":"精炼钢","amount":100},
 	{ "item":"型钢锭", "amount":50 },
-    { "item":"copper","amount": 100 },
+    { "item":"copper","amount": 100 }
 	],
     "category": "turret",
 	"research": "lancer"

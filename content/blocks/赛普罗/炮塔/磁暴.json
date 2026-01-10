@@ -43,7 +43,7 @@
     "collidesAir": true},
 	"requirements": [
 { "item": "copper", "amount":150},
-{ "item": "lead", "amount":80}
+{ "item": "lead", "amount":80},
 { "item": "精炼钢", "amount":80}
 ],
 "category": "turret",

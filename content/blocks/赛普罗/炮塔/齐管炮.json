@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"name": "齐管炮",
 	"description": "本次重新添加纯属是为了防止人机使用型钢墙做防御当然造价也会上升（乐）",
-	"details":"除了铜和钛，其他弹药会让后勤部流泪"
+	"details":"除了铜和钛，其他弹药会让后勤部流泪",
 	"health": 10000,
 	"size": 1,
 	"range": 1200,
@@ -10,7 +10,7 @@
 	"consumes":{"coolant":{"amount":0.6,"optional":true}  },
 	"shoot":{
 	"shots":14,
-	"shootShake":1,
+	"shootShake":1
 	},
 	"xRand":2,
 	"ammoUseEffect": "casing2Double",
@@ -25,11 +25,11 @@
 			"width": 5,
 			"height": 9,
 			"makeFire":true,
-			"ammoMultiplier":2,
-			"shootEffect": "shootSmall"
+			"shootEffect": "shootSmall",
 		    "homingRange": 300,
             "homingPower": 60,
-			"ammoMultiplier":30,},
+			"ammoMultiplier":30
+		},
 	    "graphite":{		  
 	        "reloadMultiplier":20,
 	        "speed": 50,
@@ -41,7 +41,7 @@
 			"shootEffect": "shootSmall"	    },
 	    "pyratite": {
 			"speed": 50,
-			"damage": 7000.
+			"damage": 7000,
 			"reloadMultiplier":20,
 			"lifetime":60,
 			"width": 7,
@@ -65,7 +65,7 @@
 			"homingRange": 40,
             "homingPower": 0.06,
 			"ammoMultiplier":10
-	    }
+	    },
 	    "型钢锭": {
 			"speed": 50,
 			"damage": 114514,
@@ -74,11 +74,11 @@
 			"height": 10,
 			"reloadMultiplier":20,
 			"makeFire":true,
-			"ammoMultiplier":2,
-			"shootEffect": "shootSmall"
+			"shootEffect": "shootSmall",
 		    "homingRange": 300,
             "homingPower": 0.60,
-			"ammoMultiplier":30,},
+			"ammoMultiplier":30
+		},
 	    "titanium":{
 			"speed": 50,
 			"damage": 5000,
@@ -86,16 +86,16 @@
 			"width": 5,
 			"height": 10,
 			"makeFire":true,
-			"ammoMultiplier":2,
-			"shootEffect": "shootSmall"
+			"shootEffect": "shootSmall",
 		    "homingRange": 300,
             "homingPower": 0.60,
-			"ammoMultiplier":30,                   },
+			"ammoMultiplier":30
+		            }
 	}, 
 	"researchCostMultiplier": 0.5,
 	"requirements": [
-{"item":"银矿","amount":1500}
-	{"item":"型钢锭","amount":999999}
+{"item":"银矿","amount":1500},
+	{"item":"型钢锭","amount":999999},
 	{"item": "copper", "amount": 999999},
 	{"item": "lead", "amount": 999999},
 	{"item": "titanium", "amount": 999999},
@@ -105,10 +105,10 @@
 	{"item": "silicon", "amount": 99999},
 	{ "item": "plastanium", "amount": 99999 },
 	{ "item": "surge-alloy", "amount": 99999 } ,
-	{ "item": "phase-fabric", "amount": 99999 }
-	{"item":"锂","amount":15000}
-	{"item":"土钢","amount":10000}
-	{"item":"铀","amount":15000}
+	{ "item": "phase-fabric", "amount": 99999 },
+	{"item":"锂","amount":15000},
+	{"item":"土钢","amount":10000},
+	{"item":"铀","amount":15000},
     { "item": "使用授权", "amount": 1 }
 	],
 	"category": "turret",

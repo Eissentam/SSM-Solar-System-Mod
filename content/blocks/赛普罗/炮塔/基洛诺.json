@@ -4,19 +4,19 @@
 	"description":"[blue]恒星的力量，哪怕只有几秒钟",
 	"details":"激光横跨整张地图，电力消耗较大",
 	"size":6,
-	"health":1500
+	"health":1500,
 	"shoot": {
         "type": "ShootPattern",
-        "firstShotDelay": 60
-        "reload":90,
+        "firstShotDelay": 60,
+        "reload":90
     },
 	"canOverdrive": true,
 	"targetAir": true,
 	"targetGround": true,
 	"range": 5500,
-	"shootSound":"lancer",
-	"coolantMultiplier":0.8
-	"rotateSpeed":4
+	"shootSound":"shootForeshadow",
+	"coolantMultiplier":0.8,
+	"rotateSpeed":4,
 	"drawer": [
 	/*{
             "effect": "dynamicSpikes",
@@ -33,7 +33,7 @@
 "minStroke":0,
 "layer":59,
 "square":false
-}
+},
 	{
 "type":"DrawPulseShape",
 "color":"77B3EE",
@@ -42,7 +42,7 @@
 "minStroke":0,
 "layer":59,
 "square":false
-}
+},
         {"type": "DrawTurret",
         "parts": [   
 {
@@ -95,7 +95,7 @@
                 "haloRadius": 17,
                 "layer": 110,
                 "y": 23
-            },
+            }
            
      ]}
     ],
@@ -111,7 +111,7 @@
         "lifetime": 355,
         "colorFrom": "FFFFFF",
         "colorTo": "FFFFFF",
-        "cone": 360},
+        "cone": 360}
         ]
         },
 	"consumes": 
@@ -119,21 +119,20 @@
         "coolant":{"amount":1,"optional":true}  
                 },
 	"shootCone":40,
-	"recoilAmount": 0
+	"recoilAmount": 0,
 	"xRand": 2,
-	"shootSound":"laser",
-	"ammoPerShot":4
-	"smokeEffect":"bigShockwave"
+	"ammoPerShot":4,
+	"smokeEffect":"bigShockwave",
 	"shootType":  {     
      "type": "LaserBulletType",
-     "smokeEffect":"smokeCloud"
+     "smokeEffect":"smokeCloud",
      "status": "光炫减速",
-     "damage":650
+     "damage":650,
      "width": 10,
 	 "length":5500,
-     "lifetime":60
-     "speed":0
-	 "colors":["69E0C7FF" "69E0C7FF" "69E0C760"]
+     "lifetime":60,
+     "speed":0,
+	 "colors":["69E0C7FF", "69E0C7FF", "69E0C760"]
 	 },
 	"requirements": [
 	{ "item":"copper","amount": 1000 },
@@ -142,7 +141,7 @@
 	{ "item":"精炼钢","amount":1000},
 	{ "item":"型钢锭", "amount":500 },
 	{ "item":"镧壳", "amount":500 },
-	{ "item":"镍", "amount":500 },
+	{ "item":"镍", "amount":500 }
 	],
     "category": "turret",
 	"research": "foreshadow"

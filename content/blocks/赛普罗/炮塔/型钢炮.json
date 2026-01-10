@@ -63,6 +63,6 @@
 	    { "item": "metaglass", "amount": 10 },
 	    { "item": "silicon", "amount": 285 },
 	    { "item": "型钢锭", "amount": 210 },
-	    { "item": "精炼钢", "amount": 210 },
+	    { "item": "精炼钢", "amount": 210 }
 	]
 }

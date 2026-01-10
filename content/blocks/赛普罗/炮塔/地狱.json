@@ -1,99 +1,98 @@
 {
 	"name": "地狱",
 	"description": "拥有极大持续性的激光火炮，让他成为了“打火石”。",
-	"details": "超大型激光狙击炮塔,发射一道穿透所有敌军的一道强力激光
-[blue]麦克阿瑟曾说过:如果我的对手使用它，我应该开始计划怎么逃走(doge)"
+	"details": "超大型激光狙击炮塔,发射一道穿透所有敌军的一道强力激光\n[blue]麦克阿瑟曾说过:如果我的对手使用它，我应该开始计划怎么逃走(doge)",
 	"type": "ItemTurret",
 	"size": 4,
 	"health":2550,
 	"range": 550,
 	"reload":50,
-	"rotateSpeed":4
+	"rotateSpeed":4,
 	"canOverdrive": false,
 	"shootCone":40,
-	"shootEffect":"lancerLaserShoot"
-	"smokeEffect":"none"
-	"shootSound":"laserblast"
-	"ammoPerShot":4
-	"ammoUseEffect":"casing3Double"
+	"shootEffect":"lancerLaserShoot",
+	"smokeEffect":"none",
+	"shootSound":"laserblast",
+	"ammoPerShot":4,
+	"ammoUseEffect":"casing3Double",
 	"consumes": {"power": 7,
-    "coolant":{"amount":0.6
+    "coolant":{"amount":0.6,
     "optional":true}  
         },
 	"ammoTypes": {
 	     "surge-alloy": {
-	       "type":"LaserBulletType"
-		   "smokeEffect":"smokeCloud"
-		   "hitShake":6
-		   "ammoMultiplier":2
-		   "damage":1200
+	       "type":"LaserBulletType",
+		   "smokeEffect":"smokeCloud",
+		   "hitShake":6,
+		   "ammoMultiplier":2,
+		   "damage":1200,
 		   "width": 20,
-		   "length":550
-		   "lifetime":60
-			 "speed":0
-			 "buildingDamageMultiplier":1.2
-			 "colors":["CE735E50" "f2eca1" "CE735EFF"]
-}
+		   "length":550,
+		   "lifetime":60,
+			 "speed":0,
+			 "buildingDamageMultiplier":1.2,
+			 "colors":["CE735E50","f2eca1","CE735EFF"]
+},
 
 	     "thorium": {
-	       "type":"LaserBulletType"
-		   "smokeEffect":"smokeCloud"
-		   "hitShake":6
-		   "ammoMultiplier":2
-		   "damage":550
+	       "type":"LaserBulletType",
+		   "smokeEffect":"smokeCloud",
+		   "hitShake":6,
+		   "ammoMultiplier":2,
+		   "damage":550,
 		   "width": 20,
-		   "length":550
-		   "lifetime":60
-			 "speed":0
-			 "buildingDamageMultiplier":1.3
-			 "colors":["CE735E50" "ffbdde" "CE735EFF"]
-}
+		   "length":550,
+		   "lifetime":60,
+			 "speed":0,
+			 "buildingDamageMultiplier":1.3,
+			 "colors":["CE735E50","ffbdde","CE735EFF"]
+},
 
 	     "型钢锭": {
-	       "type":"LaserBulletType"
-		   "smokeEffect":"smokeCloud"
-		   "hitShake":6
-		   "ammoMultiplier":2
-		   "damage":1020
+	       "type":"LaserBulletType",
+		   "smokeEffect":"smokeCloud",
+		   "hitShake":6,
+		   "ammoMultiplier":2,
+		   "damage":1020,
 		   "width": 20,
-		   "length":550
-           "lifetime":60
-		   "speed":0
-			 "buildingDamageMultiplier":3
-			 "colors":["CE735E50" "7F007FFF" "CE735EFF"]
+		   "length":550,
+           "lifetime":60,
+		   "speed":0,
+			 "buildingDamageMultiplier":3,
+			 "colors":["CE735E50","7F007FFF","CE735EFF"],
 			 "status":"瓦灭"
 			 
-}
+},
         "熔岩矿": {
-	       "type":"LaserBulletType"
-		   "smokeEffect":"smokeCloud"
-		   "hitShake":6
-		   "ammoMultiplier":2
-		   "damage":120
+	       "type":"LaserBulletType",
+		   "smokeEffect":"smokeCloud",
+		   "hitShake":6,
+		   "ammoMultiplier":2,
+		   "damage":120,
 		   "width": 20,
-		   "length":550
-           "lifetime":60
-		   "speed":0
-			 "buildingDamageMultiplier":3
-			 "colors":["E98E4250" "E98E42FF" "E98E4260"]
+		   "length":550,
+           "lifetime":60,
+		   "speed":0,
+			 "buildingDamageMultiplier":3,
+			 "colors":["E98E4250","E98E42FF","E98E4260"],
 			 "status":"melting"
 			 
 },
           "铀": {
-	       "type":"LaserBulletType"
-		 "smokeEffect":"smokeCloud"
-		   "hitShake":6
-		   "ammoMultiplier":2
-		   "damage":520
+	       "type":"LaserBulletType",
+		 "smokeEffect":"smokeCloud",
+		   "hitShake":6,
+		   "ammoMultiplier":2,
+		   "damage":520,
 		   "width": 20,
-		   "length":550
-           "lifetime":60
-		   "speed":0
-        "buildingDamageMultiplier":3
-			 "colors":["FFFF0050" "FFFF00FF" "FFFF0060"]
+		   "length":550,
+           "lifetime":60,
+		   "speed":0,
+        "buildingDamageMultiplier":3,
+			 "colors":["FFFF0050","FFFF00FF","FFFF0060"],
 			 "status":"辐射"
 			 
-},
+}
 
 	},
 	"requirements": [
@@ -101,8 +100,8 @@
 {"item":"silicon","amount":125},
 {"item":"thorium","amount":150},
 {"item":"plastanium","amount":100},
-{"item":"surge-alloy","amount":325},
-]
-"category": "turret"
+{"item":"surge-alloy","amount":325}
+],
+"category": "turret",
 "research": "foreshadow"
   }
