@@ -1,5 +1,5 @@
 # Solar System Mod (SSM)
-
+![logo](https://github.com/Eissentam/SSM-Solar-System-Mod/blob/main/sprites-override/ui/logo.png)
 > 一个为Mindustry添加太阳系内容的模组。
 
 **请注意：本模组已于2023年2月25日停止更新，进入维护状态。详情见下文。**
