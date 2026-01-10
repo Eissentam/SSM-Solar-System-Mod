@@ -35,7 +35,7 @@
             },
 	"consumes": {
 	"liquid": 
-	{"liquid": "water", "amount": 0.6 }
+	{"liquid": "water", "amount": 0.6 },
     "power":6,
     "items": {
 	 "items": [
@@ -48,7 +48,7 @@
         { "item": "lead", "amount": 45},
 		{ "item": "titanium", "amount": 45},
 		{ "item": "metaglass", "amount": 20 },
-		{"item": "silicon","amount":35}
+		{"item": "silicon","amount":35},
 		{"item": "镍","amount":35}
 	],
 	"category": "crafting",

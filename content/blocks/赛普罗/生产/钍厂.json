@@ -27,8 +27,8 @@
 	{ "item": "lead", "amount": 100 },
 	{ "item": "titanium", "amount": 160 },
 	{ "item": "silicon", "amount": 150 },
-	{ "item": "metaglass", "amount": 130 },
+	{ "item": "metaglass", "amount": 130 }
 	],
 	"category": "crafting",
-	"research": "熔炼炉",
+	"research": "熔炼炉"
 }

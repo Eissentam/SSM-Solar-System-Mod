@@ -40,7 +40,7 @@
 	{ "item": "lead", "amount": 70 },
 	{ "item": "thorium", "amount": 60 },
 	{ "item": "metaglass", "amount": 40},
-	{ "item": "silicon", "amount": 40 },
+	{ "item": "silicon", "amount": 40 }
 	],
 	"category": "crafting",
 	"research": "cryofluid-mixer"

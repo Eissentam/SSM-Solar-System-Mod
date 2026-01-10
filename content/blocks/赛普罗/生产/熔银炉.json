@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name": "熔银炉",
+	"description": "融化银液并输出",
+	"outputLiquid": { "liquid": "银液", "amount": 0.7},
+	"size": 2,
+	"drawer":{
+        "type":"DrawMulti",
+	    "drawers":[
+	{"type":"DrawLiquidRegion",
+	"drawLiquid":"slag",
+	"suffix":"-liquid"},
+	"DrawDefault"
+	]},
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 12,
+	"itemCapacity": 20,
+    "liquidCapacity": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":0.2,
+    "items": {
+	 "items": [
+	    { "item": "银矿", "amount": 4}
+	]
+  }
+ },
+"requirements": [
+		{"item": "copper", "amount": 9},	
+		{ "item": "lead", "amount": 5},
+		{ "item": "metaglass", "amount": 7 },
+		{"item": "型钢锭","amount":5}
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

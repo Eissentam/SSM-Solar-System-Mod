@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型熔炉",
+	"description": "融化土钢并输出",
+	"outputLiquid": { "liquid": "钢液", "amount": 0.9},
+	"size": 2,
+	"drawer":{
+        "type":"DrawMulti",
+	    "drawers":[
+	{"type":"DrawLiquidRegion",
+	"drawLiquid":"slag",
+	"suffix":"-liquid"},
+	"DrawDefault"
+	]},
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 6,
+	"itemCapacity": 20,
+    "liquidCapacity": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power":0.2,
+    "items": {
+	 "items": [
+	    { "item": "土钢", "amount": 2}
+	]
+  }
+ },
+"requirements": [
+		{"item": "copper", "amount": 9},	
+		{ "item": "lead", "amount": 5},
+		{ "item": "metaglass", "amount": 7 },
+		{"item": "型钢锭","amount":5}
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
