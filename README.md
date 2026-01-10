@@ -13,6 +13,7 @@
 
 ## 👥 开发团队 | Development Team
 ![logo](https://github.com/Eissentam/SSM-Solar-System-Mod/blob/main/sprites/blocks/%E7%81%AB%E6%98%9F/%E7%94%9F%E4%BA%A7/%E6%B8%B8%E7%A6%BB%E7%B2%92%E5%AD%90%E6%8D%95%E6%8D%89%E5%99%A8.png)
+
 本模组由以下成员共同开发，感谢他们的付出（按角色排序）：
 
 | 成员 | 职责 | 状态 |
