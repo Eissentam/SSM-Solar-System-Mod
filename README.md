@@ -1,4 +1,4 @@
-# Solar System Mod (SSM)
+# 太阳系模组——Solar System Mod (SSM)
 ![logo](https://github.com/Eissentam/SSM-Solar-System-Mod/blob/main/sprites-override/ui/logo.png)
 > 一个为Mindustry添加太阳系内容的模组。
 
